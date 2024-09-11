@@ -1,27 +1,26 @@
-# package_name
+# Meu Projeto de Processamento de Imagem
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Este projeto aplica um filtro simples em uma imagem utilizando a biblioteca Pillow.
 
-## Installation
+## Instalação
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+1. Crie um ambiente virtual:
+    ```sh
+    python3 -m venv venv
+    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+    ```
 
-```bash
-pip install package_name
+2. Instale as dependências:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Uso
+
+Para processar uma imagem, execute:
+
+```sh
+python file2_name.py
 ```
 
-## Usage
-
-```python
-from package_name import file1_name
-file1_name.my_function()
-```
-
-## Author
-My_name
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Certifique-se de que a imagem de entrada (`input.jpg`) esteja no diretório correto.
